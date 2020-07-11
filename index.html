@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introducción a Java Script</title>
+	<meta charset="utf-8"><!-- Para caracteres en español -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body id="pepito">
+	<header>
+		<img src="https://enestadobeta.la/static/images/logo.png">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="nosotros.html">Nosotros</a></li>
+			<li><a href="servicios.html">Servicios</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h1>Bienvenido a En Estado Beta</h1>
+		<h3>Página HTML Inicio</h3><br><br>
+		<p onclick="sumar()">La Suma de 50 + 45 =</p><br><br>
+		<h2 onclick="cambiaColor()">Cambiar fondo a Rosa</h2><br><br>
+		<input type="button" value="Rojo" onclick="cambiaColor2('red')">
+		<input type="button" value="Azul" onclick="cambiaColor2('blue')">
+		<input type="button" value="Amarillo" onclick="cambiaColor2('yellow')">
+		<input type="button" value="Verde" onclick="cambiaColor2('green')">
+		<br><br>
+		<input type="text" id="nro1" />+
+		<input type="text" id="nro2" />
+		<input type="text" id="resultado" />
+		<input type="button" value="Calcular" onclick="calcular();" />
+	</section>
+	<footer>
+		<p>Todos los derechos reservados 2020</p>
+	</footer>
+</body>
+</html>
